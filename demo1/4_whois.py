@@ -1,4 +1,4 @@
-import whois
+import whois21
 
-data = whois.whois('www.baidu.com')
+data = whois21.WHOIS('www.baidu.com')
 print(data)
